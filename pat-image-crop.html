@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>My Image crop Pattern demo</title>
+	<script type="text/javascript" src="patterns-1.5.0-7762d27e.min.js"></script>
+	<style type="text/css">
+		.preview {
+		    width: 168px;
+		    height: 168px;
+		    overflow: hidden;
+		}
+		 
+		.preview img {
+		    width: auto;
+		    height: auto;
+		    margin: 0;
+		    padding: 0;
+		}
+	</style>
+	<!--<link type="text/css" rel="stylesheet" href="patterns.css">-->
+  </head>
+  <body>
+
+	<div class="preview">
+	    <img id="crop-preview" src="pic3.jpg" />
+	</div>
+
+	<form action="#">
+	    <img src="pic3.jpg" class="pat-image-crop" data-pat-image-crop="preview-id: #crop-preview" />
+	</form>
+
+  </body>
+</html>
